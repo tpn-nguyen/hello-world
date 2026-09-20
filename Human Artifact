@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phuong Nguyen | Human Artifact</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fff5f8;
+      color: #4a3a40;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 850px;
+      width: 100%;
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 55px;
+      box-shadow: 0 15px 40px rgba(214, 145, 166, 0.18);
+      border: 1px solid #f8dce5;
+    }
+
+    .hello {
+      color: #d7839d;
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      color: #b85c7a;
+      font-size: 52px;
+      margin-bottom: 15px;
+    }
+
+    .intro {
+      font-size: 20px;
+      line-height: 1.7;
+      color: #66545b;
+      margin-bottom: 35px;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background: #fff0f5;
+      padding: 22px;
+      border-radius: 18px;
+      border: 1px solid #f8dce5;
+    }
+
+    .card h2 {
+      color: #c66c89;
+      font-size: 15px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .card p {
+      font-size: 17px;
+      color: #4f4147;
+    }
+
+    .question {
+      background: #fce5ed;
+      padding: 30px;
+      border-radius: 20px;
+      margin-bottom: 35px;
+    }
+
+    .question h2 {
+      color: #b85c7a;
+      margin-bottom: 12px;
+    }
+
+    .question p {
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #d7839d;
+      color: white;
+      text-decoration: none;
+      padding: 14px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #b85c7a;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      margin-top: 35px;
+      text-align: center;
+      color: #a98b96;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 30px;
+      }
+
+      h1 {
+        font-size: 38px;
+      }
+
+      .info {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="hello">Hello, I'm</div>
+
+    <h1>Phuong Nguyen ♡</h1>
+
+    <p class="intro">
+      Welcome to my Human Artifact. This is a space where I explore
+      the relationship between people, technology, and the way we see
+      the world around us.
+    </p>
+
+    <section class="info">
+
+      <div class="card">
+        <h2>Education</h2>
+        <p>Sophomore at Florida International University</p>
+      </div>
+
+      <div class="card">
+        <h2>Major</h2>
+        <p>Business Analytics</p>
+      </div>
+
+      <div class="card">
+        <h2>GPA</h2>
+        <p>4.0</p>
+      </div>
+
+      <div class="card">
+        <h2>From</h2>
+        <p>Vietnam 🇻🇳</p>
+      </div>
+
+    </section>
+
+    <section class="question">
+      <h2>A question I'm exploring</h2>
+
+      <p>
+        As technology becomes a bigger part of everyday life,
+        I want to understand what remains uniquely human.
+        How does technology change the way we think, learn,
+        connect, and understand ourselves?
+      </p>
+    </section>
+
+    <a class="button" href="#">
+      My Human Artifact →
+    </a>
+
+    <footer>
+      Made by Phuong Nguyen · FIU · 2026
+    </footer>
+
+  </main>
+
+</body>
+</html>
